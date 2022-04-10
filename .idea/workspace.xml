@@ -8,9 +8,47 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/components/UserList.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/components/footer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/components/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/UPGRADE_GUIDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/axios/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/https.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/todolist/manage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/todolist/todolist/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/todolist/todolist/asgi.py" afterDir="false" />
