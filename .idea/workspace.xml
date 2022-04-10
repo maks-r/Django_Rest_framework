@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Django_Rest_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todolist/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todolist/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todolist/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todolist/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todolist/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/management/commands/create_super_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/migrations/0002_auto_20220406_1853.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27TSSY5YBDYb2N8SEBRXssR9DxL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="" />
+      <created>1649342583555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649342583555</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
