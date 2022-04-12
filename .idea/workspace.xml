@@ -2,75 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Django_Rest_framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/SECURITY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/UPGRADE_GUIDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/axios/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/https.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todolist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todolist/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todolist/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todolist/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todolist/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/management/commands/create_super_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/migrations/0002_auto_20220406_1853.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/todoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/todolist/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/todolist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/userapp/management/commands/create_super_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/management/commands/create_super_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/userapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,11 +36,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27TSSY5YBDYb2N8SEBRXssR9DxL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -110,5 +71,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -28,6 +28,7 @@ class User(AbstractUser):
 
 
 class UserProfile(models.Model):
+    objects = None
     MALE = 'M'
     FEMALE = 'F'
 
