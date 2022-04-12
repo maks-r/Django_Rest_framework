@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist/todoapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/todolist/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/todolist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/userapp/management/commands/create_super_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/management/commands/create_super_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/userapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'userapp',
+<<<<<<< HEAD
     'todoapp',
+=======
+
+>>>>>>> 1d99532cad48ce03e7a134e854391572ab3e0cb4
 ]
 
 MIDDLEWARE = [
@@ -51,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
