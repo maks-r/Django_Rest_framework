@@ -14,7 +14,7 @@ class App extends React.Component {
         axios
             .get('http://127.0.0.1:8000/api/users/')
             .then(response => {
-                let users = response.data
+                let users = response.data.results
                 this.setState({
                     'users': users
                 })
