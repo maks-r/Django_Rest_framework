@@ -38,11 +38,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'userapp',
-<<<<<<< HEAD
     'todoapp',
-=======
-
->>>>>>> 1d99532cad48ce03e7a134e854391572ab3e0cb4
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +52,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
@@ -134,12 +130,16 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Для 3 урока, задание со *
+
 REST_FRAMEWORK = {
-    'DEFAULT_PARSER_CLASSES': [
-        'rest_framework_xml.parsers.XMLParser',
-    ],
-    'DEFAULT_RENDERER_CLASSES': [
-        'rest_framework_xml.renderers.XMLRenderer',
-    ],
+    #     'DEFAULT_PARSER_CLASSES': [
+    #         'rest_framework_xml.parsers.XMLParser',
+    #     ],
+    #     'DEFAULT_RENDERER_CLASSES': [
+    #         'rest_framework_xml.renderers.XMLRenderer',
+    #     ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 100,
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
 }
+

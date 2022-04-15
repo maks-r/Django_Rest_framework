@@ -16,6 +16,5 @@ class ToDo(models.Model):
     text = models.TextField(verbose_name="Текст заметки")
     create = models.DateTimeField(auto_now_add=True)
     update = models.DateTimeField(auto_now=True)
-    # auto_now_add и auto_now - опции  для автоматического создания и обновления даты и времени.
     creator = models.ForeignKey(User, verbose_name="Пользователь создавший заметку", on_delete=models.PROTECT)
     is_active = models.BooleanField(verbose_name="Статус активности", default=True)
