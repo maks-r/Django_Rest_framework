@@ -7,12 +7,12 @@ from .serializer import ProjectSerializer, ToDoSerializer
 from .models import Project, ToDo
 
 
-class ProjectOffsetPagination(LimitOffsetPagination):
-    default_limit = 10
+# class ProjectOffsetPagination(LimitOffsetPagination):
+#     default_limit = 10
 
 
 class ProjectViewSet(ModelViewSet):
-    pagination_class = ProjectOffsetPagination
+    # pagination_class = ProjectOffsetPagination
     serializer_class = ProjectSerializer
     queryset = Project.objects.all()
 
@@ -23,12 +23,12 @@ class ProjectViewSet(ModelViewSet):
         return Project.objects.all()
 
 
-class ToDoOffsetPagination(LimitOffsetPagination):
-    default_limit = 20
+# class ToDoOffsetPagination(LimitOffsetPagination):
+#     default_limit = 20
 
 
 class ToDoViewSet(ModelViewSet):
-    pagination_class = ToDoOffsetPagination
+    # pagination_class = ToDoOffsetPagination
     serializer_class = ToDoSerializer
     queryset = ToDo.objects.all()
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
