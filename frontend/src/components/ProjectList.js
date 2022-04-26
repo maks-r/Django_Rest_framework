@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const ProjectItem = ({project}) => {
     return (
     <tr>
@@ -15,13 +14,13 @@ const ProjectList = ({projects}) =>  {
     return (
         <table>
         <th>
-            name
+            Name
         </th>
         <th>
-            users
+            Repository
         </th>
         <th>
-            repository
+            Users
         </th>
         {projects.map((project) => <ProjectItem project={project} />)}
         </table>

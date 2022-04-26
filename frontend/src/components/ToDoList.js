@@ -17,10 +17,19 @@ const ToDoList = ({todos}) =>  {
     return (
         <table>
         <th>
-            name
+            Project
         </th>
         <th>
-            user
+            Text
+        </th>
+        <th>
+            Create
+        </th>
+        <th>
+            Update
+        </th>
+        <th>
+            Creator
         </th>
         {todos.map((todo) => <ToDoItem todo={todo} />)}
         </table>
