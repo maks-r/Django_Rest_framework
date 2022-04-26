@@ -4,7 +4,8 @@ from .serializer import UserModelSerializer
 from rest_framework import mixins, viewsets
 
 
-class UserModelViewSet(mixins.ListModelMixin,
+class UserModelViewSet(mixins.CreateModelMixin,
+                       mixins.ListModelMixin,
                        mixins.RetrieveModelMixin,
                        mixins.UpdateModelMixin,
                        viewsets.GenericViewSet):
