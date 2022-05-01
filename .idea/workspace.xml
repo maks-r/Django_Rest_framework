@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Loginform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_0Z3mI4h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_A5WU5gx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_J66AaiH.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_KwUepqq.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_OIuVykk.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_OOUH1z7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_Q5lcZ0l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_SVUnbl4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_cRl7oq7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_l0wBrW8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_lrPs4WM.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_lsjmE9y.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_mZ1mL6X.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/users/image_pe97o4h.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ToDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ToDoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/todoapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todoapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/userapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
