@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+    'drf_yasg',
     'userapp',
     'todoapp',
     'django_filters',
@@ -136,17 +137,41 @@ REST_FRAMEWORK = {
     #     'DEFAULT_PARSER_CLASSES': [
     #         'rest_framework_xml.parsers.XMLParser',
     #     ],
-    #     'DEFAULT_RENDERER_CLASSES': [
-    #         'rest_framework_xml.renderers.XMLRenderer',
-    #     ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        #'rest_framework.renderers.BrowsableAPIRenderer'
+    ],
+
+    # http://127.0.0.1:8000/api/1.1/user/
+    # 'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.URLPathVersioning',
+    # http://127.0.0.1:8000/api/1.1/user/
+    #'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',
+
+    # http://v1.test.com/api/user/
+    # http://v2.test.com/api/user/
+    # 'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.HostNameVersioning',
+
+    #http://v2.test.com/api/user/?version=1.1
+    #'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.QueryParameterVersioning',
+
+    # http://v2.test.com/api/user/
+
+    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.AcceptHeaderVersioning',
+
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 100,
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+
     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated'],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
-        # 'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
+SWAGGER_SETTINGS = { 'SECURITY_DEFINITIONS': { 'Basic': { 'type': 'basic' }, 'Token': { 'type': 'apiKey', 'name': 'Authorization', 'in': 'header' } } }
+
+if DEBUG:
+    REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'].append('rest_framework.renderers.BrowsableAPIRenderer')
 
