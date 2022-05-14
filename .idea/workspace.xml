@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b771d1d2-afb5-4490-987e-6d933134aeee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todolist/userapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/userapp/schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist/todolist/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist/todolist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/userapp/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/userapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/userapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
