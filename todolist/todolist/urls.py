@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include, re_path
+from django.views.generic import TemplateView
 from rest_framework.permissions import AllowAny
 from rest_framework.routers import DefaultRouter
 from userapp.views import UserModelViewSet
@@ -43,4 +44,5 @@ urlpatterns = [
     re_path(r'^swagger(?P<format>\.json|\.yaml)', schema_view.without_ui()),
     path("graphql/", GraphQLView.as_view(graphiql=True)),
     path('api-auth-token/', views.obtain_auth_token),
+    path('', TemplateView.as_view(template_name='index.html'))
 ]
