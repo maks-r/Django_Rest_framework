@@ -1,19 +1,21 @@
 import React from 'react'
 
 
-const ToDoItem = ({todo}) => {
+const ToDoItem = ({todo, project, deleteToDo}) => {
+    let projectStr = todo.project.map(projectId => project.find(p => p.id == projectId ).name)
     return (
     <tr>
-        <td>{todo.project}</td>
+        <td>{todo.project.map(projectId => project.find(p => p.id == projectId ).name)}</td>
         <td>{todo.text}</td>
         <td>{todo.create}</td>
         <td>{todo.update}</td>
         <td>{todo.creator}</td>
+        <td><button onClick={()=>deleteToDo(todo.id)}>Delete</button></td>
     </tr>
     )
 }
 
-const ToDoList = ({todos}) =>  {
+const ToDoList = ({todos, project, deleteToDo}) =>  {
     return (
         <table>
         <th>
@@ -31,7 +33,7 @@ const ToDoList = ({todos}) =>  {
         <th>
             Creator
         </th>
-        {todos.map((todo) => <ToDoItem todo={todo} />)}
+        {todos.map((todo) => <ToDoItem todo={todo} project={project} deleteToDo={deleteToDo}/>)}
         </table>
     )
 }
